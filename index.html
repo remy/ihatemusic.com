@@ -1,0 +1,555 @@
+<html>
+<head>
+<title>Puzzle Game - Marbles Squared - for the Palm</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="ihm.css" type="text/css">
+</head>
+
+<body bgcolor="#CCCCCC" text="#000000">
+
+<table width="90%" border="1" cellspacing="0" cellpadding="0" align="center" bordercolor="#666666" bgcolor="#e6eaec" height="100%">
+  <tr>
+    <td valign="top">
+      <table width="100%" border="0" cellspacing="0" cellpadding="2" height="100%">
+        <tr>
+          <td>&nbsp;</td>
+          <td width="90%" height="5">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td width="90%" height="25" bgcolor="#FFFFFF">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="25" width="20%" nowrap>
+                  <div align="center" class="headerLink"><a href="" class="headerLink">[ Marbles Squared ]</a></div>
+                </td>
+                <td width="20%" nowrap>
+                  <div align="center" class="headerLink"><a href="/ihm_interrupt_me.html" class="headerLink">[ Interrupt Me ]</a></div>
+                </td>
+                <td width="20%" nowrap>
+                  <div align="center" class="headerLink"><a href="/ihm_chess_timer.html" class="headerLink">[ Chess Timer ]</a></div>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td width="90%" height="5">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td width="90%" height="25" bgcolor="#FFFFFF" class="headerLink" nowrap>
+            <div align="center"><a href="#overview" class="headerLink">Overview</a> |
+            <a href="/all_high_scores.html" class="headerLink">Leader Board</a> |
+      <a href="#whatsnew" class="headerLink">Revisions</a> |
+      <a href="#scoring_system" class="headerLink">Scoring System</a> |
+      <a href="/download/MarblesSq.zip" class="headerLink">Download</a></div>
+          </td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td width="90%" height="5">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td width="90%" bgcolor="#FFFFFF" valign="top">
+
+  <script type="text/javascript">
+  function popup(url,width,height) {
+  var topPos = (screen.height-height)/2
+  var leftPos = (screen.width-width)/2
+  var popup = window.open(url,"Images","width=" + width + ",height=" + height + ",top=" + topPos + ",left=" + leftPos + ",toolbar=0, status=0, menubar=0, resizable=0, scrollbars=no, directories=0, dependent=yes");
+      popup.focus();
+      }
+      </script>
+
+      <!-- main body start -->
+<b>Marbles2 v1.5</b> - A free lightweight addictive puzzle game for the <a href="/web/20150213045345/http://www.palm.com/">Palm Pilot</a><br>&nbsp;<br>
+<p><b>April 2006</b>
+Since developing Marbles Squared back in 2002, I've seen around 250,000 downloads of my game (3 1/2 years later) - and I have to tip my hat to you guys and gals who keep playing the game and keep submitting your scores - even I couldn't get higher than 5,000 points.<br /><br />As you may or may not know, Marbles is now one of those old school classic games that's ceased development - but, as long as I can, I'll keep the high scores web site up and running.</p>
+<p>
+<a style="float: right; display: inline; padding: 15px; margin: 0px 10px; border: 2px solid #ccccff" href="https://www.paypal.me/rem">
+<img src="/images/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+
+</a>Marbles has always been, and always will be a free game, but if you feel like you've got a special love for the game and you want to donate a few dollars, pounds or euros because my game has wasted away your hours (possibily when you were supposed to be taking important meeting notes that time) then I would be really very grateful.  You can do it through PayPal by clicking on the PayPal button. </p>
+<p>Thanks for playing Marbles squared, and be sure to upload your high scores.</p>
+<p>01-July 2003&nbsp;-&nbsp;Download v1.5 - <a href="/download/MarblesSq.zip">Download latest version of Marbles Squared</a>
+<p><a href="javascript:popup('/cgi-bin/ihatemusic/validate.cgi','400','400');"><b>Submit your score to the leaderboard</b></a>
+<!--<br /><a href="#overview">Quick Overview</a>
+<br><a href="#sendscore">Send in you High Score</a>
+<br><a href="#help">How YOU can Help / Help Contribute</a>
+<br><a href="#whatsnew">What's New</a>
+<br><a href="#scoring_system">Scoring System</a>-->
+| <a href="mailto:palm@ihatemusic.com">Submit Bugs/Suggestions</a> | <a href="/all_high_scores.html">Show more scores -&gt;</a></p>
+<table width="100%">
+<tr>
+<td width="165" ><img src="/images/marbles.gif" border=1 ALT="Marbles Squared"></td>
+<td valign="top">
+</td>
+<td valign=top>
+<iframe src="high_scores.html" height="280" frameborder="0" width="400"></iframe>
+</td>
+</tr>
+</table>
+
+<p>
+<a name="overview">
+<b>Quick Overview</b>
+<ul>
+Marbles is a totally addictive puzzle game for your palm that doesn't eat all your memory!  For just a fraction of your precious Palm RAM
+you're going to get a great and simple game that you'll find hard to put down.
+<br><br>
+The only reason why I wrote this port to the Palm was because I love the game so much - you know you want it - it's FREE and COOL!
+<br><br>
+The aim of the game is to clear all of the blocks on the grid by tapping and removing block 'sets'.  If you find clearing the board
+too challenging then there is always the high score to try against - my personal best score is level 4 with 5,294 - <a href="javascript:popup('/cgi-bin/ihatemusic/validate.cgi','400','400');">submit your score and see if you do better</a>
+and you will be added to the leader board on this site.
+<br><br>
+The latest changes to Marbles will bring league games to play against your friends and the ability to replay the games the 'champions' scored their best scores with using a game seed.
+</ul>
+
+<p><br>
+<a name="sendscore">
+<b>Send in your High Score</b>
+<br>&nbsp;<br>
+<table border=0 width="100%" cellspacing=1>
+<tr>
+<td width=200><img src="/images/sendscore.gif" border=1 ALT="Marbles Squared - send your score in"></td>
+</td>
+<td valign=top>
+When you get a top score on Marbles, you should email your score to me and I'll add it to the leaderboard.<br><br>
+The animation on the left can show you how to do this, as I've found that since we're so used to tapping on the heading for drop down menu, some people
+forget that the menu is even there!  <br><br>
+So, get this code, and email to me and compete for that top slot!
+</td>
+</tr>
+</table>
+
+
+<!--<p><br>
+<a name="help">
+<b>How YOU can Help!</b>
+<ul>
+22nd June '03: I'm currently trying to add different styles of blocks to Marbles<sup>2</sup> and being a programmer, my graphical skills are pretty poor.  If
+you would like to contribute and help me put some quality blocks in Marbles<sup>2</sup> - then you'll have the GREAT(!) honour of being credited on my web site
+and palm app - a-n-d ... you'll know that there are many Marbles<sup>2</sup> players out there playing away using your designed blocks!  I'm looking for any contributers
+for the full launch of Marbles<sup>2</sup> version 1.5.<br><br>
+The requirements are:<br>
+&#149; Black and white, grey (4 colours) and colour (16 - 256)<br>
+&#149; Height: 16 pixels<br>
+&#149; Width: 16 pixels<br>
+&#149; BMP format (though I'm happy to receive originals - png, etc)<br>
+&#149; For the black and white, and the grey - the designs should also work when the colours are inverted.  This is because when the backlight
+comes on the player must be able to see the blocks.<br>
+&#149; Send your designs to: <a href="mailto:MarbleSq-contrib&#64;ihatemusic.com?Subject=Contribution to MarblesSq">MarbleSq-contrib&#64;ihatemusic.com</a>
+</ul>
+-->
+
+<p><br>
+<a name="strategy">
+<b>Scoring Strategy</b>
+<ol>
+A guide to high scores and getting on the leader board by the UK's Marbles<sup>2</sup> champion, Mike King.<br><br>
+The strategy, such as it is, is to try to see the patterns:<br>
+<li>Scan the grid, and look to see if one particular colour can be cleared.<br>
+<li>What would be the effect of clearing that colour on the other marbles?<br>
+<li>Would this leave another colour ready to be completely cleared.  <br>
+<li>Arbitrarily joining large blocks of one colour to get a high single score almost always leads to disaster.  <br>
+<li>Keep an eye on the ends, to make sure that there are enough marbles to match up when they join, or make sure the ends can be cleared by themselves, i.e. are blocks.<br>
+<li>Keep an eye on the bottom corners, particularly when the sequence is:
+<ul>XY<br>YX</ul>
+How are you going to clear that?<br>
+<li>Signing up with a psychiatrist helps, and some good strong nerve pills are also essential.<br>
+<li>Also remove all fragile or breakable items from the immediate vicinity.<br>
+<li>Tell all your friends about the game - author note :-).<br>
+</ol>
+
+
+
+
+<br>
+<p>
+<a name="whatsnew">
+<b>What's New</b>
+<ul>
+
+<table width="94%" border=0 cellpadding=1>
+<tr><td>
+<b>- Version 1.5</b>&nbsp;&nbsp;(01-July 2003)<br>
+<a href="/download/MarblesSq-v1.5.zip">Download this version</a><br>
+<b>Features:</b><br>
+<table cellpadding=0 cellspacing=0>
+  <tr>
+  <td>
+  &#149; Feature: Game seeds - the ability to play the high score grids over and over - and compete against the champions by playing the game that got their high score
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; Update: Made the timeout on the possible and current score smaller
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; Update: Improved the colour blocks to nice and bright :) (though the web image above needed updating)
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; Update: Added options for sound, score timeout and double tap to remove blocks optional.
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; Feature coming soon: Options box to change block style (can you HELP?  <a href="#help">See above!</a>)
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; Feature coming soon: Ability to download your position in the high score tables online, but also play league games against your friends
+  </td>
+  </tr>
+</table>
+<br>&nbsp;
+</td>
+</tr>
+</table>
+
+
+<table width="94%" border=0 cellpadding=1>
+<tr><td>
+<b>- Version 1.4</b>&nbsp;&nbsp;(08-Jun 2003)<br>
+<a href="/download/MarblesSq-v1.4.zip">Download this version</a><br>
+<b>Features:</b><br>
+<table cellpadding=0 cellspacing=0>
+  <tr>
+  <td>
+  &#149; Feature: Game breakdown available for 1 player games and can be checked any time during the game
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; Feature: Put a timeout on the possible and current score
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; Update: Removed the 'profanity' - on request - sorry :-P
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; Update: Fixed the two player score break down bug (it wasn't updating properly)
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; Update: Player 2 can not longer move to the next level (whoops!)
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; Update: Very rare bug where the game would not finish when there were no sets left
+  </td>
+  </tr>
+</table>
+<br>&nbsp;
+</td>
+</tr>
+</table>
+
+
+
+<table width="94%" border=0 cellpadding=1 datasrc=#updates>
+<tr><td>
+<b>- Version 1.3</b>&nbsp;&nbsp;(05-Feb 2003)<br>
+<a href="/download/MarblesSq-v1.3.zip">Download this version</a><br>
+<b>Features:</b><br>
+<table cellpadding=0 cellspacing=0>
+  <tr>
+  <td>
+  &#149; Feature: Added level based games when you complete the board - this means that the scores are going to rocket!
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; Feature: 2 player games on the same Palm with end of game break down
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; Update: Put the command bar back ( slash / ) + quick link to undo
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; Update: 'Nicer' high score table
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; Update: More organised menus
+  </td>
+  </tr>
+</table>
+<br>&nbsp;
+</td>
+</tr>
+</table>
+
+<table width="94%" border=0 cellpadding=1 datasrc=#updates>
+<tr><td>
+<b>- Version 1.2</b>&nbsp;&nbsp;(02-Nov 2002)<br>
+<a href="/download/MarblesSq-v1.2.zip">Download this version</a><br>
+<b>Features:</b><br>
+<table cellpadding=0 cellspacing=0>
+  <tr>
+  <td>
+  &#149; Feature: Changed the display of the colour balls so that they are clearer
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; Feature: Save game state when you leave the game (ie. when you go to another app the game saves)
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; Update: Improved score validation
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; Fix: Had to remove the popup command menu (only available from Palm OS 3.5)
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; Fix: When you enter you name (rather than skip) the game may have caused some problems
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; Fix: Serious bug with the undo - please use the newest version of Marbles
+  </td>
+  </tr>
+</table>
+<br>&nbsp;
+</td>
+</tr>
+</table>
+
+
+<table width="94%" border=0 cellpadding=1>
+<tr><td>
+<b>- Version 1.0</b>&nbsp;&nbsp;(12-Oct 2002)<br>
+<a href="javascript:alert('I have bugs - take a newer version!');">Download this version</a><br>
+<b>Features:</b><br>
+<table cellpadding=0 cellspacing=0>
+  <tr>
+  <td>
+  &#149; Guaranteed hours of amusement!
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; 10x10 grid with coloured blocks
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; Full colour support
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; Undo feature
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; High score leader board
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &#149; Only 11K!!!  Super small - without loss of quality
+  </td>
+  </tr>
+</table>
+<br>&nbsp;
+</td>
+</tr>
+</table>
+
+</ul>
+
+<a name="scoring_system">
+<b>Scoring system used for Marbles<sup>2</sup></b><br><br>
+<ul>
+Score rule: number of blocks * (5 + number of blocks)<br>
+Bonus scores: +150 for 5 remaining blocks or less, +300 for a clear board at the end of the game.<br><br>
+Key: M = number of marbles<br>
+<table width="94%" border="0" cellpadding="0" cellspacing="1">
+<tr>
+<td valign=top>
+  <table border=0 cellpadding=0>
+<tr><td><b>M&nbsp;&nbsp;</b></td><td align=right><b>Score</b></td></tr>
+<tr><td>&nbsp;</td><td align=right>&nbsp;</td></tr>
+<tr><td>2</td><td align=right>14</td></tr>
+<tr><td>3</td><td align=right>24</td></tr>
+<tr><td>4</td><td align=right>36</td></tr>
+<tr><td>5</td><td align=right>50</td></tr>
+<tr><td>6</td><td align=right>66</td></tr>
+<tr><td>7</td><td align=right>84</td></tr>
+<tr><td>8</td><td align=right>104</td></tr>
+<tr><td>9</td><td align=right>126</td></tr>
+<tr><td>10</td><td align=right>150</td></tr>
+<tr><td>11</td><td align=right>176</td></tr>
+<tr><td>12</td><td align=right>204</td></tr>
+<tr><td>13</td><td align=right>234</td></tr>
+<tr><td>14</td><td align=right>266</td></tr>
+<tr><td>15</td><td align=right>300</td></tr>
+<tr><td>16</td><td align=right>336</td></tr>
+<tr><td>17</td><td align=right>374</td></tr>
+<tr><td>18</td><td align=right>414</td></tr>
+<tr><td>19</td><td align=right>456</td></tr>
+<tr><td>20</td><td align=right>500</td></tr>
+</table>
+</td><td bgcolor="#e0e0e0"><img src="/images/blank.gif" height=1 width=1></td><td valign=top>
+  <table border=0 cellpadding=0>
+<tr><td><b>M&nbsp;&nbsp;</b></td><td align=right><b>Score</b></td></tr>
+<tr><td>21</td><td align=right>546</td></tr>
+<tr><td>22</td><td align=right>594</td></tr>
+<tr><td>23</td><td align=right>644</td></tr>
+<tr><td>24</td><td align=right>696</td></tr>
+<tr><td>25</td><td align=right>750</td></tr>
+<tr><td>26</td><td align=right>806</td></tr>
+<tr><td>27</td><td align=right>864</td></tr>
+<tr><td>28</td><td align=right>924</td></tr>
+<tr><td>29</td><td align=right>986</td></tr>
+<tr><td>30</td><td align=right>1050</td></tr>
+<tr><td>31</td><td align=right>1116</td></tr>
+<tr><td>32</td><td align=right>1184</td></tr>
+<tr><td>33</td><td align=right>1254</td></tr>
+<tr><td>34</td><td align=right>1326</td></tr>
+<tr><td>35</td><td align=right>1400</td></tr>
+<tr><td>36</td><td align=right>1476</td></tr>
+<tr><td>37</td><td align=right>1554</td></tr>
+<tr><td>38</td><td align=right>1634</td></tr>
+<tr><td>39</td><td align=right>1716</td></tr>
+<tr><td>40</td><td align=right>1800</td></tr>
+  </table>
+</td><td bgcolor="#e0e0e0"><img src="/images/blank.gif" height=1 width=1></td><td valign=top>
+  <table border=0 cellpadding=0>
+<tr><td><b>M&nbsp;&nbsp;</b></td><td align=right><b>Score</b></td></tr>
+<tr><td>41</td><td align=right>1886</td></tr>
+<tr><td>42</td><td align=right>1974</td></tr>
+<tr><td>43</td><td align=right>2064</td></tr>
+<tr><td>44</td><td align=right>2156</td></tr>
+<tr><td>45</td><td align=right>2250</td></tr>
+<tr><td>46</td><td align=right>2346</td></tr>
+<tr><td>47</td><td align=right>2444</td></tr>
+<tr><td>48</td><td align=right>2544</td></tr>
+<tr><td>49</td><td align=right>2646</td></tr>
+<tr><td>50</td><td align=right>2750</td></tr>
+<tr><td>51</td><td align=right>2856</td></tr>
+<tr><td>52</td><td align=right>2964</td></tr>
+<tr><td>53</td><td align=right>3074</td></tr>
+<tr><td>54</td><td align=right>3186</td></tr>
+<tr><td>55</td><td align=right>3300</td></tr>
+<tr><td>56</td><td align=right>3416</td></tr>
+<tr><td>57</td><td align=right>3534</td></tr>
+<tr><td>58</td><td align=right>3654</td></tr>
+<tr><td>59</td><td align=right>3776</td></tr>
+<tr><td>60</td><td align=right>3900</td></tr>
+</table>
+</td><td bgcolor="#e0e0e0"><img src="/images/blank.gif" height=1 width=1></td><td valign=top>
+  <table border=0 cellpadding=0>
+<tr><td><b>M&nbsp;&nbsp;</b></td><td align=right><b>Score</b></td></tr>
+<tr><td>61</td><td align=right>4026</td></tr>
+<tr><td>62</td><td align=right>4154</td></tr>
+<tr><td>63</td><td align=right>4284</td></tr>
+<tr><td>64</td><td align=right>4416</td></tr>
+<tr><td>65</td><td align=right>4550</td></tr>
+<tr><td>66</td><td align=right>4686</td></tr>
+<tr><td>67</td><td align=right>4824</td></tr>
+<tr><td>68</td><td align=right>4964</td></tr>
+<tr><td>69</td><td align=right>5106</td></tr>
+<tr><td>70</td><td align=right>5250</td></tr>
+<tr><td>71</td><td align=right>5396</td></tr>
+<tr><td>72</td><td align=right>5544</td></tr>
+<tr><td>73</td><td align=right>5694</td></tr>
+<tr><td>74</td><td align=right>5846</td></tr>
+<tr><td>75</td><td align=right>6000</td></tr>
+<tr><td>76</td><td align=right>6156</td></tr>
+<tr><td>77</td><td align=right>6314</td></tr>
+<tr><td>78</td><td align=right>6474</td></tr>
+<tr><td>79</td><td align=right>6636</td></tr>
+<tr><td>80</td><td align=right>6800</td></tr>
+</table>
+</td><td bgcolor="#e0e0e0"><img src="/images/blank.gif" height=1 width=1></td><td valign=top>
+  <table border=0 cellpadding=0>
+<tr><td><b>M&nbsp;&nbsp;</b></td><td align=right><b>Score</b></td></tr>
+<tr><td>81</td><td align=right>6966</td></tr>
+<tr><td>82</td><td align=right>7134</td></tr>
+<tr><td>83</td><td align=right>7304</td></tr>
+<tr><td>84</td><td align=right>7476</td></tr>
+<tr><td>85</td><td align=right>7650</td></tr>
+<tr><td>86</td><td align=right>7826</td></tr>
+<tr><td>87</td><td align=right>8004</td></tr>
+<tr><td>88</td><td align=right>8184</td></tr>
+<tr><td>89</td><td align=right>8366</td></tr>
+<tr><td>90</td><td align=right>8550</td></tr>
+<tr><td>91</td><td align=right>8736</td></tr>
+<tr><td>92</td><td align=right>8924</td></tr>
+<tr><td>93</td><td align=right>9114</td></tr>
+<tr><td>94</td><td align=right>9306</td></tr>
+<tr><td>95</td><td align=right>9500</td></tr>
+<tr><td>96</td><td align=right>9696</td></tr>
+<tr><td>97</td><td align=right>9894</td></tr>
+<tr><td>98</td><td align=right>10094</td></tr>
+<tr><td>99</td><td align=right>10296</td></tr>
+<tr><td>100</td><td align=right>10500</td></tr>
+  </table>
+</td>
+</tr>
+</table>
+
+
+</ul>
+          <!-- main body end -->
+      </td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td width="90%" height="5">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+
+
+
+
+
+<!--
+     FILE ARCHIVED ON 4:53:45 Feb 13, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:41:42 Dec 8, 2016.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+
+</html>
